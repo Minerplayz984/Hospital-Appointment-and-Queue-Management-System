@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 
-namespace Hospital_Appointment___Queue_Management_System
+namespace Hospital_Appointment_and_Queue_Management_System
 {
     internal class Program
     {

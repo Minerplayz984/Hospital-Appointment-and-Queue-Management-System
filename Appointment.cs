@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace Hospital_Appointment___Queue_Management_System
+namespace Hospital_Appointment_and_Queue_Management_System
 {
     internal class Appointment
     {
