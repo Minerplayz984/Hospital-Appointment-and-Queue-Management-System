@@ -245,8 +245,9 @@ namespace Hospital_Appointment_and_Queue_Management_System
                             Doctormenu();
                             break;
                         case 3:
-                            Console.WriteLine("Enter username and password ");
+                            Console.WriteLine("Enter Admin username:");
                             string str = Console.ReadLine();
+                            Console.WriteLine("Enter Admin password:");
                             string pass = Console.ReadLine();
 
                             if (str == "admin" && pass == "1234")
