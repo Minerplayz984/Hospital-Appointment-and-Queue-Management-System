@@ -187,21 +187,21 @@ namespace Hospital_Appointment_and_Queue_Management_System
                 List<string> doctorLines = new List<string>();
                 foreach (Doctor d in doctors.Values)
                 {
-                    doctorLines.Add(d.GetDoctorId() + "," + d.Getname() + "," + d.Getspecialty());
+                    doctorLines.Add(d.GetDoctorId() + " , " + d.Getname() + " , " + d.Getspecialty());
                 }
                 File.WriteAllLines("doctors.txt", doctorLines.ToArray());
 
                 List<string> patientLines = new List<string>();
                 foreach (Patient p in patients)
                 {
-                    patientLines.Add(p.getPatientId() + "," + p.getpatientName() + "," + p.getpatientAge() + "," + p.getpatientIllness());
+                    patientLines.Add(p.getPatientId() + " , " + p.getpatientName() + " , " + p.getpatientAge() + " , " + p.getpatientIllness());
                 }
                 File.WriteAllLines("patients.txt", patientLines.ToArray());
 
                 List<string> appointmentLines = new List<string>();
                 foreach (Appointment a in appointments)
                 {
-                    appointmentLines.Add(a.getappointmentId() + "," + a.getpatientId() + "," + a.getdoctorId() + "," + a.getdate() + "," + a.getstatus());
+                    appointmentLines.Add(a.getappointmentId() + " , " + a.getpatientId() + " , " + a.getdoctorId() + " , " + a.getdate() + " , " + a.getstatus());
                 }
                 File.WriteAllLines("appointments.txt", appointmentLines.ToArray());
 
